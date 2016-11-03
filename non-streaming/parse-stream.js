@@ -54,18 +54,18 @@ exports.htmlparser = function htmlparser_(stream, to_s, cb) {
 }
 
 if (module.parent) return;
-  
+
 function inspect(obj, depth) {
   console.error(require('util').inspect(obj, false, depth || 5, true));
 }
 
 function cb(err, res) {
   if (err) return console.error(err);
-  
+
   inspect(arguments);
 }
 
-var fs = require('fs')  
+var fs = require('fs')
   , path = require('path')
   , file = path.join(__dirname, '..', 'data', 'openformat-engell.soap.xml');
 

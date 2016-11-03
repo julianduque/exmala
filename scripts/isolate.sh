@@ -6,30 +6,35 @@ ulimit -n 2048
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 ROOT=$DIR/..
 
-STREAMING=true
+STREAMING=false
 PARSER=xml2js
 FILE=$ROOT/data/search.xml
 
 time $ROOT/bin/exmala -s $STREAMING \
   -p $PARSER                        \
   -f $FILE                          \
-  -n 2000                           \
-  -c 10                             \
-&&                                  \
-time $ROOT/bin/exmala -s $STREAMING \
-  -p $PARSER                        \
-  -f $FILE                          \
-  -n 2000                           \
-  -c 20                             \
-&&                                  \
-time $ROOT/bin/exmala -s $STREAMING \
-  -p $PARSER                        \
-  -f $FILE                          \
-  -n 2000                           \
-  -c 30                             \
-&&                                  \
-time $ROOT/bin/exmala -s $STREAMING \
-  -p $PARSER                        \
-  -f $FILE                          \
-  -n 2000                           \
-  -c 50
+  -n 100                            \
+  -c 100                             \
+# time $ROOT/bin/exmala -s $STREAMING \
+#   -p $PARSER                        \
+#   -f $FILE                          \
+#   -n 2000                           \
+#   -c 10                             \
+# &&                                  \
+# time $ROOT/bin/exmala -s $STREAMING \
+#   -p $PARSER                        \
+#   -f $FILE                          \
+#   -n 2000                           \
+#   -c 20                             \
+# &&                                  \
+# time $ROOT/bin/exmala -s $STREAMING \
+#   -p $PARSER                        \
+#   -f $FILE                          \
+#   -n 2000                           \
+#   -c 30                             \
+# &&                                  \
+# time $ROOT/bin/exmala -s $STREAMING \
+#   -p $PARSER                        \
+#   -f $FILE                          \
+#   -n 2000                           \
+#   -c 50
