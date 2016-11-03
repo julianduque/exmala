@@ -8,7 +8,7 @@ ROOT=$DIR/..
 
 STREAMING=true
 PARSER=htmlparser
-FILE=$ROOT/data/ibm-request.soap.xml
+FILE=$ROOT/data/search.xml
 
 time $ROOT/bin/exmala -s $STREAMING \
   -p $PARSER                        \
@@ -68,4 +68,4 @@ time $ROOT/bin/exmala -s $STREAMING \
   -p $PARSER                        \
   -f $FILE                          \
   -n 2000                           \
-  -c 2000                            
+  -c 2000

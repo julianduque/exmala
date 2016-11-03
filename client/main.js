@@ -7,80 +7,80 @@ if (tmp) tmp.parentNode.removeChild(tmp);
 var data = {
   buffering: {
     xml2js: {
-        'c10-n2000_ibm-request.soap': 
-          require('../results/buffering-xml2js-c10-n2000_ibm-request.soap.xml.json')
-      , 'c20-n2000_ibm-request.soap': 
-          require('../results/buffering-xml2js-c20-n2000_ibm-request.soap.xml.json')
-      , 'c30-n2000_ibm-request.soap': 
-          require('../results/buffering-xml2js-c30-n2000_ibm-request.soap.xml.json')
-      , 'c50-n2000_ibm-request.soap': 
-          require('../results/buffering-xml2js-c50-n2000_ibm-request.soap.xml.json')
-      , 'c100-n2000_ibm-request.soap': 
-          require('../results/buffering-xml2js-c100-n2000_ibm-request.soap.xml.json')
-      , 'c200-n2000_ibm-request.soap': 
-          require('../results/buffering-xml2js-c200-n2000_ibm-request.soap.xml.json')
-      , 'c300-n2000_ibm-request.soap': 
-          require('../results/buffering-xml2js-c300-n2000_ibm-request.soap.xml.json')
-      , 'c500-n2000_ibm-request.soap': 
-          require('../results/buffering-xml2js-c500-n2000_ibm-request.soap.xml.json')
-      , 'c1000-n2000_ibm-request.soap': 
-          require('../results/buffering-xml2js-c1000-n2000_ibm-request.soap.xml.json')
-      , 'c2000-n2000_ibm-request.soap': 
-          require('../results/buffering-xml2js-c2000-n2000_ibm-request.soap.xml.json')
+        'c10-n2000_ibm-request.soap':
+          require('../results/buffering-xml2js-c10-n2000_search.xml.json')
+      , 'c20-n2000_ibm-request.soap':
+          require('../results/buffering-xml2js-c20-n2000_search.xml.json')
+      , 'c30-n2000_ibm-request.soap':
+          require('../results/buffering-xml2js-c30-n2000_search.xml.json')
+      , 'c50-n2000_ibm-request.soap':
+          require('../results/buffering-xml2js-c50-n2000_search.xml.json')
+      , 'c100-n2000_ibm-request.soap':
+          require('../results/buffering-xml2js-c100-n2000_search.xml.json')
+      , 'c200-n2000_ibm-request.soap':
+          require('../results/buffering-xml2js-c200-n2000_search.xml.json')
+      , 'c300-n2000_ibm-request.soap':
+          require('../results/buffering-xml2js-c300-n2000_search.xml.json')
+      , 'c500-n2000_ibm-request.soap':
+          require('../results/buffering-xml2js-c500-n2000_search.xml.json')
+      , 'c1000-n2000_ibm-request.soap':
+          require('../results/buffering-xml2js-c1000-n2000_search.xml.json')
+      , 'c2000-n2000_ibm-request.soap':
+          require('../results/buffering-xml2js-c2000-n2000_search.xml.json')
     },
     htmlparser: {
-        'c10-n2000_ibm-request.soap': 
-          require('../results/buffering-htmlparser-c10-n2000_ibm-request.soap.xml.json')
-      , 'c20-n2000_ibm-request.soap': 
-          require('../results/buffering-htmlparser-c20-n2000_ibm-request.soap.xml.json')
-      , 'c30-n2000_ibm-request.soap': 
-          require('../results/buffering-htmlparser-c30-n2000_ibm-request.soap.xml.json')
-      , 'c50-n2000_ibm-request.soap': 
-          require('../results/buffering-htmlparser-c50-n2000_ibm-request.soap.xml.json')
-      , 'c100-n2000_ibm-request.soap': 
-          require('../results/buffering-htmlparser-c100-n2000_ibm-request.soap.xml.json')
-      , 'c200-n2000_ibm-request.soap': 
-          require('../results/buffering-htmlparser-c200-n2000_ibm-request.soap.xml.json')
-      , 'c300-n2000_ibm-request.soap': 
-          require('../results/buffering-htmlparser-c300-n2000_ibm-request.soap.xml.json')
-      , 'c500-n2000_ibm-request.soap': 
-          require('../results/buffering-htmlparser-c500-n2000_ibm-request.soap.xml.json')
+        'c10-n2000_ibm-request.soap':
+          require('../results/buffering-htmlparser-c10-n2000_search.xml.json')
+      , 'c20-n2000_ibm-request.soap':
+          require('../results/buffering-htmlparser-c20-n2000_search.xml.json')
+      , 'c30-n2000_ibm-request.soap':
+          require('../results/buffering-htmlparser-c30-n2000_search.xml.json')
+      , 'c50-n2000_ibm-request.soap':
+          require('../results/buffering-htmlparser-c50-n2000_search.xml.json')
+      , 'c100-n2000_ibm-request.soap':
+          require('../results/buffering-htmlparser-c100-n2000_search.xml.json')
+      , 'c200-n2000_ibm-request.soap':
+          require('../results/buffering-htmlparser-c200-n2000_search.xml.json')
+      , 'c300-n2000_ibm-request.soap':
+          require('../results/buffering-htmlparser-c300-n2000_search.xml.json')
+      , 'c500-n2000_ibm-request.soap':
+          require('../results/buffering-htmlparser-c500-n2000_search.xml.json')
     }
   },
   streaming: {
     xml2js: {
-        'c10-n2000_ibm-request.soap': 
-          require('../results/streaming-xml2js-c10-n2000_ibm-request.soap.xml.json')
-      , 'c20-n2000_ibm-request.soap': 
-          require('../results/streaming-xml2js-c20-n2000_ibm-request.soap.xml.json')
-      , 'c30-n2000_ibm-request.soap': 
-          require('../results/streaming-xml2js-c30-n2000_ibm-request.soap.xml.json')
-      , 'c50-n2000_ibm-request.soap': 
-          require('../results/streaming-xml2js-c50-n2000_ibm-request.soap.xml.json')
-      , 'c100-n2000_ibm-request.soap': 
-          require('../results/streaming-xml2js-c100-n2000_ibm-request.soap.xml.json')
-      , 'c200-n2000_ibm-request.soap': 
-          require('../results/streaming-xml2js-c200-n2000_ibm-request.soap.xml.json')
-      , 'c300-n2000_ibm-request.soap': 
-          require('../results/streaming-xml2js-c300-n2000_ibm-request.soap.xml.json')
+        'c10-n2000_ibm-request.soap':
+          require('../results/streaming-xml2js-c10-n2000_search.xml.json')
+      , 'c20-n2000_ibm-request.soap':
+          require('../results/streaming-xml2js-c20-n2000_search.xml.json')
+      , 'c30-n2000_ibm-request.soap':
+          require('../results/streaming-xml2js-c30-n2000_search.xml.json')
+      , 'c50-n2000_ibm-request.soap':
+          require('../results/streaming-xml2js-c50-n2000_search.xml.json')
+      , 'c100-n2000_ibm-request.soap':
+          require('../results/streaming-xml2js-c100-n2000_search.xml.json')
+      , 'c200-n2000_ibm-request.soap':
+          require('../results/streaming-xml2js-c200-n2000_search.xml.json')
+      , 'c300-n2000_ibm-request.soap':
+          require('../results/streaming-xml2js-c300-n2000_search.xml.json')
     },
     htmlparser: {
-        'c10-n2000_ibm-request.soap': 
-          require('../results/streaming-htmlparser-c10-n2000_ibm-request.soap.xml.json')
-      , 'c20-n2000_ibm-request.soap': 
-          require('../results/streaming-htmlparser-c20-n2000_ibm-request.soap.xml.json')
-      , 'c30-n2000_ibm-request.soap': 
-          require('../results/streaming-htmlparser-c30-n2000_ibm-request.soap.xml.json')
-      , 'c50-n2000_ibm-request.soap': 
-          require('../results/streaming-htmlparser-c50-n2000_ibm-request.soap.xml.json')
-      , 'c100-n2000_ibm-request.soap': 
-          require('../results/streaming-htmlparser-c100-n2000_ibm-request.soap.xml.json')
-      , 'c200-n2000_ibm-request.soap': 
-          require('../results/streaming-htmlparser-c200-n2000_ibm-request.soap.xml.json')
-      , 'c300-n2000_ibm-request.soap': 
-          require('../results/streaming-htmlparser-c300-n2000_ibm-request.soap.xml.json')
-      , 'c500-n2000_ibm-request.soap': 
-          require('../results/streaming-htmlparser-c500-n2000_ibm-request.soap.xml.json')
+        'c10-n2000_ibm-request.soap':
+          require('../results/streaming-htmlparser-c10-n2000_search.xml.json')
+      , 'c20-n2000_ibm-request.soap':
+          require('../results/streaming-htmlparser-c20-n2000_search.xml.json')
+      , 'c30-n2000_ibm-request.soap':
+          require('../results/streaming-htmlparser-c30-n2000_search.xml.json')
+      , 'c50-n2000_ibm-request.soap':
+          require('../results/streaming-htmlparser-c50-n2000_search.xml.json')
+      , 'c100-n2000_ibm-request.soap':
+          require('../results/streaming-htmlparser-c100-n2000_search.xml.json')
+      , 'c200-n2000_ibm-request.soap':
+          require('../results/streaming-htmlparser-c200-n2000_search.xml.json')
+      , 'c300-n2000_ibm-request.soap':
+          require('../results/streaming-htmlparser-c300-n2000_search.xml.json')
+      , 'c500-n2000_ibm-request.soap':
+          require('../results/streaming-htmlparser-c500-n2000_search.xml.json')
     }
   }
 }
@@ -108,12 +108,12 @@ function createDataset(result) {
       return [ x, y ];
     })
 
-    return { 
+    return {
         points: points
-      , xmin: 0 
+      , xmin: 0
       , xmax: (xmax - xmin) / 1E9
       , ymin: ymin
-      , ymax: ymax 
+      , ymax: ymax
     }
   }
 
@@ -161,10 +161,10 @@ function drawDataset(el, set) {
     , '   ' + (set.options.streaming ? 'Streaming' : 'Buffering')
     , set.options.parser + ' | '
     , ' Concurrency: ' + set.options.concurrency
-    , '  Number: ' + set.options.number 
+    , '  Number: ' + set.options.number
     , '  Average Processing: '
     , Math.round(parseFloat(set.averageProcessing.slice(0, -2))) + 'ms'
-    , '   </h5>'   
+    , '   </h5>'
     , '   <table id="' + set.options.resultsFile + '">'
     , '     <tr>'
     , '      <td class="heapused-chart chart"></td>'
@@ -197,7 +197,7 @@ function drawDataset(el, set) {
 
 var rootEl = document.getElementById('exmala-results');
 
-function makeDataset (d) { 
+function makeDataset (d) {
   return Object.keys(d)
     .reduce(function (acc, k) {
       acc[k] = createDataset(d[k])
@@ -211,7 +211,7 @@ var datasets = {
     , htmlparser: makeDataset(data.buffering.htmlparser)
   },
   streaming: {
-      xml2js: makeDataset(data.streaming.xml2js) 
+      xml2js: makeDataset(data.streaming.xml2js)
     , htmlparser: makeDataset(data.streaming.htmlparser)
   }
 }
